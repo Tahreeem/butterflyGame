@@ -11,3 +11,5 @@ You win the game by matching your total score to the random number. You lose the
 The value of each butterfly is hidden from you until you click on it. 
 
 Each time when the game starts, the game will change the values of each butterfly.
+
+permalink: /index.html
