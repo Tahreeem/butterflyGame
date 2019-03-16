@@ -1,0 +1,82 @@
+body {
+    margin-left: 25px;
+    margin-top: 10px;
+    background-image: url("../images/butterflies.jpg");
+    background-size: auto;
+    font-size: 90%;
+}
+
+
+
+.col, [class*="col-"] {
+    background: white;
+    text-align: center;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    /* //this is horizontal alignment; */
+    word-wrap: break-word;
+    /* //font-size: 1.5vw; */
+}
+
+.first {
+    height: 60px;
+    margin-bottom: 8px;
+}
+
+.second {
+    height: 300px;
+    margin-bottom: 8px;
+    /* text-align:left; */
+}
+
+.third {
+    height: 80px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    /* flex-wrap:wrap; */
+}
+
+#fourth {
+    height: 60px;
+    margin-bottom: 4px;
+    margin-right: 3px;
+    width: 100px;
+}
+
+.buterflies {
+    background: pink;
+    text-align: center;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 30px;
+    margin-bottom: 4px; */
+    margin-right: 3px;
+    /* width: 100px; */
+}
+
+
+
+@media all and (max-width: 1200px) {
+    .col-6 {
+        width: 100%;
+        /* font-size: 0.25rem; */
+        background: pink;
+    }
+}
+
+@media all and (orientation: landscape) {
+    .col-6 {
+        /* background-color: greenyellow; */
+    }
+}
+
+
